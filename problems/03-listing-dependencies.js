@@ -52,7 +52,7 @@ exports.verify = function (args, cb) {
     console.log('Please run:\n' +
                 '`how-to-npm verify OK` if everything is ok,\n'+
                 'or:\n' +
-                '`how-to-npm verify NOT OK` otherwise.')
+                '`how-to-npm verify NOTOK` otherwise.')
     return cb(false)
   }
 
